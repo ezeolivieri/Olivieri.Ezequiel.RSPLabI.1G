@@ -112,17 +112,13 @@ void controller_FilterAndSaveBicisDeTipo(LinkedList* pArrayListeBicicleta, char*
         {
             bicisDeTipo = ll_filter(pArrayListeBicicleta, eBicicleta_filterByBmx);
 
-            printf("\n\n\n    =======> LISTA DE BICIS DE TIPO BMX <======== \n\n\n");
-            controller_ListeBicicleta(bicisDeTipo);
-            printf("\n\n\n");
-
             if( !controller_saveAsText("bicisDeTipoBmx.csv", bicisDeTipo) )
             {
                 printf("ARCHIVO bicisDeTipoBmx.csv GENERADO CORRECTAMENTE.\n\n");
             }
             else
             {
-                printf("SE PRODUJO UN ERROR GENERANDO EL ARCHIVO bicisDeTipo.csv\n\n");
+                printf("SE PRODUJO UN ERROR GENERANDO EL ARCHIVO bicisDeTipoBmx.csv\n\n");
             }
         }
 
@@ -130,17 +126,13 @@ void controller_FilterAndSaveBicisDeTipo(LinkedList* pArrayListeBicicleta, char*
         {
             bicisDeTipo = ll_filter(pArrayListeBicicleta, eBicicleta_filterByPlayera);
 
-            printf("\n\n\n    =======> LISTA DE BICIS DE TIPO PLAYERA <======== \n\n\n");
-            controller_ListeBicicleta(bicisDeTipo);
-            printf("\n\n\n");
-
             if( !controller_saveAsText("bicisDeTipoPlayera.csv", bicisDeTipo) )
             {
                 printf("ARCHIVO bicisDeTipoPlayera.csv GENERADO CORRECTAMENTE.\n\n");
             }
             else
             {
-                printf("SE PRODUJO UN ERROR GENERANDO EL ARCHIVO bicisDeTipo.csv\n\n");
+                printf("SE PRODUJO UN ERROR GENERANDO EL ARCHIVO bicisDeTipoPlayera.csv\n\n");
             }
         }
 
@@ -148,17 +140,13 @@ void controller_FilterAndSaveBicisDeTipo(LinkedList* pArrayListeBicicleta, char*
         {
             bicisDeTipo = ll_filter(pArrayListeBicicleta, eBicicleta_filterByMtb);
 
-            printf("\n\n\n    =======> LISTA DE BICIS DE TIPO MOUNTAIN BIKE <======== \n\n\n");
-            controller_ListeBicicleta(bicisDeTipo);
-            printf("\n\n\n");
-
             if( !controller_saveAsText("bicisDeTipoMtb.csv", bicisDeTipo) )
             {
                 printf("ARCHIVO bicisDeTipoMtb.csv GENERADO CORRECTAMENTE.\n\n");
             }
             else
             {
-                printf("SE PRODUJO UN ERROR GENERANDO EL ARCHIVO bicisDeTipo.csv\n\n");
+                printf("SE PRODUJO UN ERROR GENERANDO EL ARCHIVO bicisDeTipoMtb.csv\n\n");
             }
         }
 
@@ -166,18 +154,18 @@ void controller_FilterAndSaveBicisDeTipo(LinkedList* pArrayListeBicicleta, char*
         {
             bicisDeTipo = ll_filter(pArrayListeBicicleta, eBicicleta_filterByPaseo);
 
-            printf("\n\n\n    =======> LISTA DE BICIS DE TIPO PASEO <======== \n\n\n");
-            controller_ListeBicicleta(bicisDeTipo);
-            printf("\n\n\n");
-
             if( !controller_saveAsText("bicisDeTipoPaseo.csv", bicisDeTipo) )
             {
                 printf("ARCHIVO bicisDeTipoPaseo.csv GENERADO CORRECTAMENTE.\n\n");
             }
             else
             {
-                printf("SE PRODUJO UN ERROR GENERANDO EL ARCHIVO bicisDeTipo.csv\n\n");
+                printf("SE PRODUJO UN ERROR GENERANDO EL ARCHIVO bicisDeTipoPaseo.csv\n\n");
             }
         }
+
+        printf("\n\n\n");
+        controller_ListeBicicleta(bicisDeTipo);
+        printf("\n\n\n");
     }
 }

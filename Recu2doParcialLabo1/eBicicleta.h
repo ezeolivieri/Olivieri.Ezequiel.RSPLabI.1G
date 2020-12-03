@@ -66,7 +66,7 @@ int eBicicleta_filterByMtb(void* peBicicleta);
  */
 int eBicicleta_filterByPaseo(void* peBicicleta);
 
-/** \brief
+/** \brief Ordena entre dos bicicletas por sus campos tipo y tiempo
  *
  * \param peBicicletaUno void*
  * \param peBicicletaDos void*

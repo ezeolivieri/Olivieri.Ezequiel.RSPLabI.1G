@@ -31,6 +31,30 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Controller.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Controller.h" />
+		<Unit filename="LinkedList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LinkedList.h" />
+		<Unit filename="Parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Parser.h" />
+		<Unit filename="aux.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aux.h" />
+		<Unit filename="bicicletas.csv" />
+		<Unit filename="bicisDeTipoBmx.csv" />
+		<Unit filename="bicisDeTipoPlayera.csv" />
+		<Unit filename="bicisOrdenadas.csv" />
+		<Unit filename="eBicicleta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="eBicicleta.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

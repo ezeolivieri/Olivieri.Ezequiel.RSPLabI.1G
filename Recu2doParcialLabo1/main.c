@@ -90,7 +90,7 @@ int main()
                 system("clear");
                 if( !ll_isEmpty(listaBicicletas) )
                 {
-                    printf("TIPOS DE BICI: bmx, playera, mtb, paseo.\n\n");
+                    printf("TIPOS DE BICI: BMX, PLAYERA, MTB, PASEO.\n\n");
                     aux_getCadena(tipoAux, "Ingrese el tipo por el que quiere filtrar: ");
 
                     controller_FilterAndSaveBicisDeTipo(listaBicicletas, tipoAux);
