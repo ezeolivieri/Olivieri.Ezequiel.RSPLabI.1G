@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1607034417 source:/home/ezequielo/Escritorio/Olivieri.Ezequiel.RSPLabI.1G/Recu2doParcialLabo1/aux.c
+	<stdlib.h>
+	<ctype.h>
+	<stdio_ext.h>
+
+1607037770 source:/home/ezequielo/Escritorio/Olivieri.Ezequiel.RSPLabI.1G/Recu2doParcialLabo1/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Controller.h"
+	"eBicicleta.h"
+	"Parser.h"
+	"aux.h"
+
+1607036860 /home/ezequielo/Escritorio/Olivieri.Ezequiel.RSPLabI.1G/Recu2doParcialLabo1/Controller.h
+	"LinkedList.h"
+
+1607034328 /home/ezequielo/Escritorio/Olivieri.Ezequiel.RSPLabI.1G/Recu2doParcialLabo1/LinkedList.h
+
+1607037575 /home/ezequielo/Escritorio/Olivieri.Ezequiel.RSPLabI.1G/Recu2doParcialLabo1/eBicicleta.h
+
+1607034030 /home/ezequielo/Escritorio/Olivieri.Ezequiel.RSPLabI.1G/Recu2doParcialLabo1/Parser.h
+
+1607034392 /home/ezequielo/Escritorio/Olivieri.Ezequiel.RSPLabI.1G/Recu2doParcialLabo1/aux.h
+
+1607037743 source:/home/ezequielo/Escritorio/Olivieri.Ezequiel.RSPLabI.1G/Recu2doParcialLabo1/eBicicleta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"eBicicleta.h"
+	"Controller.h"
+	"aux.h"
+
+1607034354 source:/home/ezequielo/Escritorio/Olivieri.Ezequiel.RSPLabI.1G/Recu2doParcialLabo1/LinkedList.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+
+1607037938 source:/home/ezequielo/Escritorio/Olivieri.Ezequiel.RSPLabI.1G/Recu2doParcialLabo1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"LinkedList.h"
+	"eBicicleta.h"
+	"Controller.h"
+	"aux.h"
+
+1607034283 source:/home/ezequielo/Escritorio/Olivieri.Ezequiel.RSPLabI.1G/Recu2doParcialLabo1/Parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"eBicicleta.h"
+
