@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1607041260 source:/home/ezequielo/Escritorio/SegundoParcialL1/Auxiliares.c
+	<stdlib.h>
+	<ctype.h>
+	<stdio_ext.h>
+
+1607041563 source:/home/ezequielo/Escritorio/SegundoParcialL1/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Controller.h"
+	"eBicicleta.h"
+	"Parser.h"
+	"Auxiliares.h"
+
+1607041365 /home/ezequielo/Escritorio/SegundoParcialL1/Controller.h
+	"LinkedList.h"
+
+1607041502 /home/ezequielo/Escritorio/SegundoParcialL1/LinkedList.h
+
+1607041419 /home/ezequielo/Escritorio/SegundoParcialL1/eBicicleta.h
+
+1607041454 /home/ezequielo/Escritorio/SegundoParcialL1/Parser.h
+
+1607041301 /home/ezequielo/Escritorio/SegundoParcialL1/Auxiliares.h
+
+1607041552 source:/home/ezequielo/Escritorio/SegundoParcialL1/eBicicleta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"eBicicleta.h"
+	"Controller.h"
+	"Auxiliares.h"
+
+1607041526 source:/home/ezequielo/Escritorio/SegundoParcialL1/LinkedList.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+
+1607041162 source:/home/ezequielo/Escritorio/SegundoParcialL1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"LinkedList.h"
+	"Auxiliares.h"
+	"eBicicleta.h"
+	"Controller.h"
+
+1607041479 source:/home/ezequielo/Escritorio/SegundoParcialL1/Parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"eBicicleta.h"
+

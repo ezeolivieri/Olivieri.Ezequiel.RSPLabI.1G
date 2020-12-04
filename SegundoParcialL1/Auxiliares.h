@@ -1,3 +1,10 @@
+#ifndef AUXILIARES_H_INCLUDED
+#define AUXILIARES_H_INCLUDED
+
+
+
+#endif // AUXILIARES_H_INCLUDED
+
 /** \brief Obtener un char (S/N) de confirmacion
  *
  * \param mensajePedir char*

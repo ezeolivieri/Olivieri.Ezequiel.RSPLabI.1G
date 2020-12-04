@@ -4,7 +4,7 @@
 #include "Controller.h"
 #include "eBicicleta.h"
 #include "Parser.h"
-#include "aux.h"
+#include "Auxiliares.h"
 
 int controller_loadFromText(char* path , LinkedList* pArrayListeBicicleta)
 {

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "LinkedList.h"
-#include "aux.h"
+#include "Auxiliares.h"
 #include "eBicicleta.h"
 #include "Controller.h"
 

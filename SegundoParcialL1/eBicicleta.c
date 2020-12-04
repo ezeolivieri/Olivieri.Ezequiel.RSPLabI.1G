@@ -3,7 +3,7 @@
 #include <string.h>
 #include "eBicicleta.h"
 #include "Controller.h"
-#include "aux.h"
+#include "Auxiliares.h"
 
 eBicicleta* eBicicleta_new()
 {
